@@ -1,0 +1,30 @@
+body {
+  color: white;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 24px;
+}
+
+span {
+  display: block;
+}
+
+.screen {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#prompt, #input {
+  display: inline-block;
+}
+
+#input {
+  margin-left: 10px;
+}
+
+#input:focus {
+  outline: none;
+}
