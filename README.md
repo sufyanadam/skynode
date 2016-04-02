@@ -14,6 +14,10 @@ node.js.
 
 Just type a command, like in your terminal.
 
+# Supported Commands
+
+`link nest` - link your nest device to the terminal.
+
 # Live demo
 
 Go to `http://skynode.sufyan-adam.com`
