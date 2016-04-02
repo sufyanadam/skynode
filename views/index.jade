@@ -3,8 +3,14 @@ extends layout
 block content
   .screen
     #history
+      if error
+        span Error linking to nest: #{error}
+      if access_token
+        span Successfully linked to nest with access token: #{access_token}
+
     .bottom-line
       #prompt skynode~:$
       #input(contentEditable='true')
 
+  form(action='/nest_oauth' id='nest_oauth')
   script(type='text/javascript' src='/javascripts/skynode.js')
